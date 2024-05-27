@@ -3,7 +3,7 @@
         "id": 1,
         "projectName": "Malmu",
         "projectDescription": "Mobile app that allows you to play an interactive story around the city of Malmö. The app uses gps to navigate the user through the story. This was part of a university project.",
-        "src": "src/assets/xmedia_bild.png"
+        "src": "/assets/xmedia_bild.png"
     },
     {
         "id": 2,
