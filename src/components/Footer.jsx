@@ -28,7 +28,7 @@ export default function Footer() {
                     </span>
                 </a>
             </div>
-            <p>emil.cederslatt@gmail.com</p>
+            <p>This will show my email</p>
         </footer>
     )
 }

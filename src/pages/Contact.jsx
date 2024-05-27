@@ -9,7 +9,7 @@ export default function Contact() {
                 </h3>
                 <h2 className="text-2xl pt-5 font-bold underline">Email</h2>
                 <p className="text-2xl py-2 font-normal w-full md:w-3/4 ">
-                    You can shoot me an email at: <a className="font-bold" href="mailto:emil.cederslatt@gmail.com">emil.cederslatt@gmail.com.</a> <br></br>
+                    You can shoot me an email at: <a className="font-bold" href="mailto:This will show my email">This will show my email.</a> <br></br>
                     I check my inbox regularly and will get back to you as soon as possible.
                 </p>
                 <h2 className="text-2xl pt-5 font-bold underline">Social Media</h2>

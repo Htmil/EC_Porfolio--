@@ -10,7 +10,7 @@ export default function Home() {
                 experiences with code and creativity.
             </h3>
             {/* <button className="p-4 bg-gray-900 text-white rounded-md">
-                emil.cederslatt@gmail.com
+
             </button> */}
             <div className="profileImage sm:w-1/2 sm:h-1/2 lg:h-4/6 xl:h-5/6 xl:w-2/5"></div>
         </div>

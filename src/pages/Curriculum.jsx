@@ -34,7 +34,7 @@ export default function Curriculum() {
                     </div>
                     <div className="contactInfo">
                         <h2 className="text-3xl py-5 font-bold underline">Contact information</h2>
-                        <a className="" href="mailto:emil.cederslatt@gmail.com">emil.cederslatt@gmail.com.</a>
+                        <a className="" href="mailto:This will show my email">This will show my email.</a>
                         <a href="https://github.com/htmil"><p>Github.com/htmil</p></a>
                     </div>
 
