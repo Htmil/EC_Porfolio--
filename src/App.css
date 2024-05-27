@@ -67,7 +67,7 @@ p, h1,h2,h3 {
     bottom: 2.4rem;
     right:2rem;
     z-index: 1;
-    background-image: url(./assets/profil_nobg.png);
+    background-image: url(assets/profil_nobg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
