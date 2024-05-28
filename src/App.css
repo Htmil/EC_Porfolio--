@@ -2,6 +2,8 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+/* background-color: #e5ff86; */
+
 /** Reset */
 *{
     box-sizing: border-box;
@@ -115,4 +117,22 @@ p, h1,h2,h3 {
         bottom: 2.5rem; 
         right: 0;
     }
+}
+
+body.colorized {
+    background-color: #e5ff86;
+}
+
+.navBar.colorized {
+    background-color: #e5ff86;
+}
+
+footer.colorized {
+    background-color: #e5ff86;
+}
+
+main.background-image {
+    background-image: url('../assets/31.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
 }

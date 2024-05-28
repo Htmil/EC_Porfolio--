@@ -4,7 +4,7 @@ export default function NavBar() {
 
     return (
         <>
-            <div className="bg-white font-bold w-full h-10 flex justify-between items-center font-inter">
+            <div className="navBar bg-white font-bold w-full h-10 flex justify-between items-center font-inter">
                 <Link to="/" className="text-lg sm:text-xl">
                     HTML
                 </Link>
