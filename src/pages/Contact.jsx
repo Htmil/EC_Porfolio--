@@ -1,21 +1,20 @@
 export default function Contact() {
-
     return (
         <>
             <div className="mainContent font-bold p-4 sm:p-8 w-full">
-                <h1 className="mainTitle text-5xl md:text-7xl py-2">CONTACT</h1>
-                <h3 className="text-3xl py-5 font-semibold md:w-3/4 lg:w-2/4">
-                    Connect With Me: Let's Start a Conversations or Collaborate on Something Awesome!
+                <h1 className="mainTitle text-4xl sm:text-5xl md:text-7xl py-2">CONTACT</h1>
+                <h3 className="text-xl sm:text-2xl md:text-3xl py-5 font-semibold md:w-3/4 lg:w-2/4">
+                    Connect With Me: Let's Start a Conversation or Collaborate on Something Awesome!
                 </h3>
-                <h2 className="text-2xl pt-5 font-bold underline">Email</h2>
-                <p className="text-2xl py-2 font-normal w-full md:w-3/4 ">
-                    You can shoot me an email at: <a className="font-bold" href="mailto:This will show my email">This will show my email.</a> <br></br>
+                <h2 className="text-xl sm:text-2xl pt-5 font-bold underline">Email</h2>
+                <p className="text-base sm:text-lg py-2 font-normal w-full md:w-3/4">
+                    You can shoot me an email at: <a className="font-bold" href="mailto:This will show my email">This will show my email.</a> <br />
                     I check my inbox regularly and will get back to you as soon as possible.
                 </p>
-                <h2 className="text-2xl pt-5 font-bold underline">Social Media</h2>
-                <div className="flex sm:gap-10">
+                <h2 className="text-xl sm:text-2xl pt-5 font-bold underline">Social Media</h2>
+                <div className="flex gap-4 sm:gap-10 py-5">
                     <a href="https://github.com/Htmil" target="_blank">
-                        <span className="[&>svg]:h-10 [&>svg]:w-10">
+                        <span className="[&>svg]:h-8 [&>svg]:w-8 sm:[&>svg]:h-10 sm:[&>svg]:w-10">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="currentColor"
@@ -26,18 +25,18 @@ export default function Contact() {
                         </span>
                     </a>
                     <a href="https://linkedin.com/in/emil-cederslätt" target="_blank">
-                        <span className="[&>svg]:h-10 [&>svg]:w-10">
+                        <span className="[&>svg]:h-8 [&>svg]:w-8 sm:[&>svg]:h-10 sm:[&>svg]:w-10">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="currentColor"
                                 viewBox="0 0 448 512">
-                                {/* <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. --> */}
+                                {/* Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. */}
                                 <path d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
                             </svg>
                         </span>
                     </a>
                 </div>
-                <h2 className="text-2xl py-5 font-bold">
+                <h2 className="text-xl sm:text-2xl py-5 font-bold">
                     Looking forward to hearing from you!
                 </h2>
             </div>

@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <footer className="bg-white font-bold text-lg w-full h-10 flex justify-between items-center font-inter">
             <p className=" hidden sm:block">Emil Cederslätt</p>
-            <div className="flex  sm:gap-5">
+            <div className="flex gap-5">
                 <a href="https://github.com/Htmil" target="_blank">
                     <span className="[&>svg]:h-5 [&>svg]:w-5 ">
                         <svg

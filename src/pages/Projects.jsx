@@ -14,13 +14,13 @@ export default function Projects() {
     return (
         <>
             <div className="mainContent font-bold p-4 sm:p-8 w-full">
-                <h1 className="mainTitle text-5xl md:text-7xl py-2">PROJECTS</h1>
-                <h3 className="text-3xl py-5 font-semibold md:w-3/4 lg:w-2/4">
+                <h1 className="mainTitle text-4xl sm:text-5xl md:text-7xl py-2">PROJECTS</h1>
+                <h2 className="text-2xl sm:text-3xl py-5 font-semibold md:w-3/4 lg:w-2/4">
                     Take a Peek: At some of the projects I've built and worked on.
-                </h3>
+                </h2>
                 <div className="w-fit">
                     
-                    <a href="https://github.com/Htmil" target="_blank" className="">
+                    <a href="https://github.com/Htmil" target="_blank" className=""> Check my github for more:  
                         <span className="[&>svg]:h-10 [&>svg]:w-10 flex items-center ">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"

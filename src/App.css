@@ -84,6 +84,7 @@ p, h1,h2,h3 {
 .card{
     height: 400px;
     box-shadow: rgba(0, 0, 0, .16) 0  1px 4px;
+    margin-bottom: 1rem;
 }
 .card-image{
     height: 100%;
@@ -104,5 +105,14 @@ p, h1,h2,h3 {
     footer, header {
         padding: 0 1rem;
     }
-    
+    .gridWrapper, .cvWrapper {
+        display: block;
+        padding: 1rem; 
+    }
+    .profileImage {
+        width: 70vw;
+        height: 70vw;
+        bottom: 2.5rem; 
+        right: 0;
+    }
 }

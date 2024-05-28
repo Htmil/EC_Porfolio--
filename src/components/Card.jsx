@@ -6,7 +6,7 @@ export default function Card(data) {
         const overlay = document.querySelector(`.info-overlay-${identifier}`);
         overlay.classList.toggle('hidden'); // Toggle the 'hidden' class to show/hide the overlay
     }
-    const {id, projectName, projectDescription, src} = data;
+    const { id, projectName, projectDescription, src } = data;
 
     return (
         <div className="card flex flex-col justify-between">
@@ -18,7 +18,10 @@ export default function Card(data) {
             </div>
             <div className="card-info h-1/6 flex justify-between align-top bg-white p-1">
                 <p className="">{projectName}</p>
-                <p className="text-sm">Toggle for more info <input type="checkbox" onChange={() => handleCheckboxChange(id)} /></p>
+                <p className="text-sm flex items-center gap-2">
+                    Toggle for more info
+                    <input type="checkbox" onChange={() => handleCheckboxChange(id)} className="w-4 h-4" />
+                </p>
             </div>
         </div>
     )
