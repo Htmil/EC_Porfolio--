@@ -8,8 +8,8 @@ export default function NavBar() {
                 <Link to="/" className="text-lg sm:text-xl">
                     HTML
                 </Link>
-                <p className="items-center font-normal hidden text-sm md:flex">Currently learning:
-                    <a className="flex items-bottom px-2" href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Space+Grotesk&size=15&duration=3000&pause=1000&color=000000&vCenter=true&random=false&width=150&height=30&lines=c%23+;React;Bootstrap;Tailwind+CSS" alt="Typing SVG" /></a>
+                <p className="items-center font-semibold hidden text-sm md:flex">Currently learning:  <span className="text-sm font-normal px-2">C#, .NET, MS SQL Server</span>
+                    {/* <a className="flex items-bottom px-2" href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Space+Grotesk&size=15&duration=3000&pause=1000&color=000000&vCenter=true&random=false&width=150&height=30&lines=c%23+;React;Bootstrap;Tailwind+CSS" alt="Typing SVG" /></a> */}
                 </p>
                 <nav className="w-max">
                     <NavLink to="/" className="home text-lg sm:text-xl p-2">H</NavLink><span>|</span>
