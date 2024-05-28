@@ -1,12 +1,22 @@
+import { useState } from 'react';
 
 export default function Footer() {
+    const [isToggled, setIsToggled] = useState(false);
+
+    const handleToggle = () => {
+        setIsToggled(!isToggled);
+        document.body.classList.toggle('colorized', !isToggled);
+        document.querySelector('.navBar').classList.toggle('colorized', !isToggled);
+        document.querySelector('footer').classList.toggle('colorized', !isToggled);
+        document.querySelector('main').classList.toggle('background-image', !isToggled);
+    };
 
     return (
         <footer className="bg-white font-bold text-lg w-full h-10 flex justify-between items-center font-inter">
-            <p className=" hidden sm:block">Emil Cederslätt</p>
+            <p className="hidden sm:block">Emil Cederslätt</p>
             <div className="flex gap-5">
-                <a href="https://github.com/Htmil" target="_blank">
-                    <span className="[&>svg]:h-5 [&>svg]:w-5 ">
+                <a href="https://github.com/Htmil" target="_blank" rel="noopener noreferrer">
+                    <span className="[&>svg]:h-5 [&>svg]:w-5">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             fill="currentColor"
@@ -16,7 +26,7 @@ export default function Footer() {
                         </svg>
                     </span>
                 </a>
-                <a href="https://linkedin.com/in/emil-cederslätt" target="_blank">
+                <a href="https://linkedin.com/in/emil-cederslätt" target="_blank" rel="noopener noreferrer">
                     <span className="[&>svg]:h-5 [&>svg]:w-5">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +38,8 @@ export default function Footer() {
                     </span>
                 </a>
             </div>
+            <p>c: <input type="checkbox" onChange={handleToggle} className="toggle-btn p-2 bg-gray-800 text-white rounded"/></p>
             <p>This will show my email</p>
         </footer>
-    )
+    );
 }
