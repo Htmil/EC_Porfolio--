@@ -9,6 +9,7 @@ export default function Footer() {
         document.querySelector('.navBar').classList.toggle('colorized', !isToggled);
         document.querySelector('footer').classList.toggle('colorized', !isToggled);
         document.querySelector('main').classList.toggle('background-image', !isToggled);
+
     };
 
     return (
