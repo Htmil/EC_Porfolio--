@@ -14,7 +14,7 @@ export default function Curriculum() {
                         <div className="infocard">
                             <h3 className="text-xl sm:text-2xl font-semibold" >IT-påbyggnad, Lexicon Malmö, 2024 -</h3>
                             <p className="text-1xl pt-2">Advanced training in programming/system development.
-                                [C#, ASP.NET, MVC, ReactJS, NodeJS, SQL]</p>
+                                [C#, ASP.NET, MVC, ReactJS, NodeJS, MS SQL, Python,]</p>
                         </div>
                         <div className="infocard">
                             <h3 className="text-xl sm:text-2xl pt-5 font-semibold" >Malmö universitet, Medieproduktion och processdesign, 2019 - 2022</h3>
