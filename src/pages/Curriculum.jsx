@@ -48,6 +48,9 @@ export default function Curriculum() {
                             <p>C#</p>
                             <p>PHP</p>
                             <p>CMS</p>
+                            <p>Wordpress</p>
+                            <p>Python</p>
+                            <p>JQuery</p>
                             <p>Tailwind</p>
                             <p>Bootstrap</p>
                             <p>GitHub</p>
